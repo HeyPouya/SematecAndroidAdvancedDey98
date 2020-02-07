@@ -9,10 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".TestRecyclerActivity">
-        </activity>
-        <activity android:name=".TestJavaActivity" />
-        <activity android:name=".testkotlin.MainActivity">
+        <activity android:name=".NullableVariableActivity"></activity>
+        <activity android:name=".TestFunctionActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <action android:name="android.intent.action.VIEW" />
@@ -20,6 +18,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".TestLambdaActivity"></activity>
+        <activity android:name=".TestRecyclerActivity" />
+        <activity android:name=".TestJavaActivity" />
+        <activity android:name=".testkotlin.MainActivity" />
     </application>
 
 </manifest>

@@ -1,5 +1,5 @@
 
+asquid:UselessImportCheck"1Remove this unused import 'android.widget.Toast'.(©›ïÍúÿÿÿÿ8™¿ôû-
 jsquid:MaximumInheritanceDepth"<This class has 9 parents which is greater than 5 authorized.(ÒŸõŞùÿÿÿÿ
 \"squid:SwitchLastCaseIsDefaultCheck0""Add a default case to this switch.(×“¾ñùÿÿÿÿ8­£’û-
-asquid:UselessImportCheck"1Remove this unused import 'android.widget.Toast'.(©›ïÍúÿÿÿÿ8™¿ôû-
 nsquid:S13010"KReplace this "switch" statement by "if" statements to increase readability.(×“¾ñùÿÿÿÿ8­£’û-

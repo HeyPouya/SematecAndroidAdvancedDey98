@@ -5,12 +5,11 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.sematec.android.advanced.dey98.R
-import com.sematec.android.advanced.dey98.TestRecyclerClickListener
 import kotlinx.android.synthetic.main.recycler_item.view.*
 
 class TestKotlinRecyclerAdapter(
     val names: List<String>,
-    val clickListener: TestRecyclerClickListener
+    val clickListener: (String) -> Unit
 ) :
     RecyclerView.Adapter<TestKotlinRecyclerAdapter.TestKotlinRecyclerViewHolder>() {
 
@@ -29,14 +28,14 @@ class TestKotlinRecyclerAdapter(
 
     class TestKotlinRecyclerViewHolder(
         val item: View,
-        val clickListener: TestRecyclerClickListener
+        val clickListener: (String) -> Unit
     ) : RecyclerView.ViewHolder(item) {
 
         fun onBind(name: String) {
             item.txtName.text = name
 
             item.setOnClickListener {
-                clickListener.onClick(name)
+               clickListener(name)
             }
         }
     }

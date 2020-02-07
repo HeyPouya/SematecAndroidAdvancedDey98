@@ -1,6 +1,4 @@
 
-t
-Dapp/src/main/java/com/sematec/android/advanced/dey98/MainActivity.kt,b/0/b0a231199724e60600adc39a2207f5e7afdef2a3
 }
 Mapp/src/main/java/com/sematec/android/advanced/dey98/TestPersonInterface.java,f/f/ff53e57207e904440621b917fe548420b97a35a8
 y
@@ -13,3 +11,19 @@ P
  app/src/main/AndroidManifest.xml,8/c/8c55c3ccc257e5907959013f99656e4c8ec3903e
 }
 Mapp/src/main/java/com/sematec/android/advanced/dey98/TestRecyclerAdapter.java,f/8/f8942394c9f310dd5ee8be01d222f5ee3458f70e
+ƒ
+Sapp/src/main/java/com/sematec/android/advanced/dey98/TestRecyclerClickListener.java,7/3/7309c411d6097670408340766479bdba2e87fb6c
+~
+Napp/src/main/java/com/sematec/android/advanced/dey98/TestRecyclerActivity.java,d/7/d7d13f36a6d17770ae1a46482efdb5f88b5a7741
+Œ
+\app/src/main/java/com/sematec/android/advanced/dey98/testkotlin/TestKotlinRecyclerAdapter.kt,8/5/85f4db5886136c12c8a50094a37cf09da46e5c75
+
+Oapp/src/main/java/com/sematec/android/advanced/dey98/testkotlin/MainActivity.kt,6/3/633b1b8b22e47c20d4c5f554d332ed8e27fcb325
+z
+Japp/src/main/java/com/sematec/android/advanced/dey98/TestLambdaActivity.kt,f/5/f55375baa75da5ab9ce4145b94c527e9f973d0ac
+x
+Happ/src/main/java/com/sematec/android/advanced/dey98/StringExtensions.kt,0/9/0994f071280be8e73cf7a0a2bbab2c7023445248
+|
+Lapp/src/main/java/com/sematec/android/advanced/dey98/TestFunctionActivity.kt,f/9/f9639d904366ab86cfed3f5e0f771aa4ae8ffc8a
+€
+Papp/src/main/java/com/sematec/android/advanced/dey98/NullableVariableActivity.kt,f/2/f2c2b297e3b41e93170a127e2c1ce7c54faa6b5b
