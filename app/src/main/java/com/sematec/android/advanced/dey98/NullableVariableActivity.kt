@@ -1,6 +1,7 @@
 package com.sematec.android.advanced.dey98
 
 import android.os.Bundle
+import android.util.Log
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 
@@ -48,7 +49,20 @@ class NullableVariableActivity : AppCompatActivity() {
             }
         }
 
+        val list = arrayListOf("Ali", "Mamad", "Qoli", "Akbar", "Saeed")
+
+        for (i in list) {
+            Log.d("TAG", i)
+        }
+
+        list.forEach {
+           Log.d("TAG",it)
+        }
+
         //for
+        for (i in 0..10) {
+            Log.d("TAG", i.toString())
+        }
 
     }
 
