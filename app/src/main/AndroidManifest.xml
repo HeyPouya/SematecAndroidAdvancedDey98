@@ -11,7 +11,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".mvp.TestMVPActivity">
+        <activity android:name=".rx.TestRxActivity">
+        </activity>
+        <activity android:name=".mvp.TestMVPActivity"></activity>
+        <activity android:name=".TestRetrofitActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <action android:name="android.intent.action.VIEW" />
@@ -19,7 +22,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".TestRetrofitActivity"></activity>
         <activity android:name=".NullableVariableActivity" />
         <activity android:name=".TestFunctionActivity" />
         <activity android:name=".TestLambdaActivity" />
