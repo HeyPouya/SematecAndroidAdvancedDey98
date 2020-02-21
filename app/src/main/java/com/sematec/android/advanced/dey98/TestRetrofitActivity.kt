@@ -13,7 +13,7 @@ import retrofit2.converter.gson.GsonConverterFactory
 
 class TestRetrofitActivity : AppCompatActivity() {
 
-    val disposable = CompositeDisposable()
+    private val disposable = CompositeDisposable()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -45,7 +45,7 @@ class TestRetrofitActivity : AppCompatActivity() {
 
     override fun onDestroy() {
 
-        //outOfMemoryException
+        //runOutOfMemoryException
         //memory leak + GC
         disposable.dispose()
         super.onDestroy()
