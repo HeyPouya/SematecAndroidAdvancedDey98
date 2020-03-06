@@ -13,6 +13,7 @@ class TestDaggerActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_test_dagger)
 
-        viewModel = ViewModelProvider(this)
+        val factory = DaggerFactoryComponent.create().provideVMFactory()
+        viewModel = ViewModelProvider(this, factory).get(TestDaggerViewModel::class.java)
     }
 }

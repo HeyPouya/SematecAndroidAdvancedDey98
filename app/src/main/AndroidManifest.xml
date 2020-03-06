@@ -11,18 +11,19 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".dgr.TestDaggerActivity"></activity>
-        <activity android:name=".di.TestDIActivity" />
-        <activity android:name=".rx.TestRxActivity" />
-        <activity android:name=".mvp.TestMVPActivity" />
-        <activity android:name=".TestRetrofitActivity"/>
-        <activity android:name=".livedata.TestLiveDataActivity">
+        <activity android:name=".dgr.TestDaggerActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <action android:name="android.intent.action.VIEW" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity android:name=".di.TestDIActivity" />
+        <activity android:name=".rx.TestRxActivity" />
+        <activity android:name=".mvp.TestMVPActivity" />
+        <activity android:name=".TestRetrofitActivity"/>
+        <activity android:name=".livedata.TestLiveDataActivity">
 
         </activity>
         <activity android:name=".mvvm.TestMVVMActivity">
