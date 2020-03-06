@@ -11,10 +11,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".rx.TestRxActivity">
-        </activity>
-        <activity android:name=".mvp.TestMVPActivity"></activity>
-        <activity android:name=".TestRetrofitActivity" >
+        <activity android:name=".dgr.TestDaggerActivity"></activity>
+        <activity android:name=".di.TestDIActivity" />
+        <activity android:name=".rx.TestRxActivity" />
+        <activity android:name=".mvp.TestMVPActivity" />
+        <activity android:name=".TestRetrofitActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <action android:name="android.intent.action.VIEW" />
