@@ -15,14 +15,19 @@
         <activity android:name=".di.TestDIActivity" />
         <activity android:name=".rx.TestRxActivity" />
         <activity android:name=".mvp.TestMVPActivity" />
-        <activity android:name=".TestRetrofitActivity">
+        <activity android:name=".TestRetrofitActivity"/>
+        <activity android:name=".livedata.TestLiveDataActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <action android:name="android.intent.action.VIEW" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
         </activity>
+        <activity android:name=".mvvm.TestMVVMActivity">
+        </activity>
+        <activity android:name=".rx.TestRxBindingActivity"></activity>
         <activity android:name=".NullableVariableActivity" />
         <activity android:name=".TestFunctionActivity" />
         <activity android:name=".TestLambdaActivity" />
