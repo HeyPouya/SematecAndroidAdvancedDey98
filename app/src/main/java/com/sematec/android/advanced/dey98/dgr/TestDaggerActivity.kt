@@ -1,11 +1,11 @@
 package com.sematec.android.advanced.dey98.dgr
 
 import android.os.Bundle
-import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.ViewModelProvider
 import com.sematec.android.advanced.dey98.R
+import com.sematec.android.advanced.dey98.base.BaseActivity
 
-class TestDaggerActivity : AppCompatActivity() {
+class TestDaggerActivity : BaseActivity() {
 
     lateinit var viewModel: TestDaggerViewModel
 

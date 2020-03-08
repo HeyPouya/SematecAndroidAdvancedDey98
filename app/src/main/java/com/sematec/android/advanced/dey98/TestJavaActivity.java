@@ -10,7 +10,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class TestJavaActivity extends AppCompatActivity implements TestPersonInterface, View.OnClickListener {
 
-    TestJavaActivity(){
+    public TestJavaActivity(){
 
     }
     @Override
